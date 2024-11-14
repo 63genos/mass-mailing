@@ -12,7 +12,7 @@ public class SendEmail {
 		System.out.println(mails);
 		while (!mails.isEmpty()) {
 		    String receiver = mails.remove(0); 
-		    String sender = "bedarkarparth2020@gmail.com";
+		    String sender = "xyz@gmail.com";//enter your email id
 		    String subject = "Demo";
 		    String body = "This is sent by a java program";
 		    System.out.println(receiver);
